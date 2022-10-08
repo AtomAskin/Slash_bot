@@ -24,4 +24,4 @@ async def echo(message):
 async def echo(message):
     await message.answer('Меня создал Сулумбек \nего тг никнейм @Nk_sulumbek')
 if __name__ == "__main__":
-    executor.start_polling(dp, skip_updates=False)
+    executor.start_polling(dp, skip_updates=True)
